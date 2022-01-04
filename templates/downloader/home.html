@@ -1,0 +1,23 @@
+{% extends 'downloader/base.html' %}
+{% load static %}
+{% block page %}
+    <title>Facebook Video Downloader</title>
+{% endblock %}
+{% block content %}
+    <br>
+    <main class="px-1">
+        <div class="container">
+            <h1>Yoo Download</h1>
+            <h3>Facebook Video Downloader</h4>
+            <h5 class="text-muted mb-5">Facebook Video To MP4 Converter Online</h6>
+            <div class="row justify-content-center">
+                <form action="" method="POST">
+                    <div class="input-group input-group-lg mb-3">
+                        <input type="text" class="form-control" placeholder="Enter video url" aria-label="Text input with dropdown button" />
+                        <input type="submit" class="btn btn-primary" value="Download" aria-expanded="false">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+{% endblock %}
